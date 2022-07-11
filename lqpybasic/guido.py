@@ -1,0 +1,6 @@
+print("1982-------Guido in cwi")
+print("1995-------Guido in cnri")
+print("2000-------Guido in beopen")
+print("2005-------Guido in google")
+print("2012-------Guido in dropbox")
+print("2020-------Guido in mircosoft")
