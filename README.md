@@ -1,6 +1,13 @@
 # paly python
-## 20220711
 
+## 20220712
+1. help() 函数从 命令行模式切换到 帮助模式
+2. ASCII 码表 
+   sudo apt-get install ascii 
+   128 位 代表不同符号的编码
+   
+   
+## 20220711
 1. quit() 或者 ctrl + d 退出 IDEL 
 2. REPL read evaluate print loop 
 3. python 中的所有代码 大小写敏感
@@ -13,9 +20,6 @@
 8. 历史上第一个程序错误是因为电脑里面飞进来了一直虫子 bug ?
 9. python3  an interpreted, interactive, object-oriented programming language
 10. python 3.10.4 构建了一个运行时环境 可以将 python 语句翻译成当前物理架构可执行的代码
-
-
-
 
 
 
