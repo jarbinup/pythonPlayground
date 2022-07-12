@@ -2,10 +2,11 @@
 
 ## 20220712
 1. help() 函数从 命令行模式切换到 帮助模式
-2. ASCII 码表 
+2. ASCII 码表 American Standard Code for Information Interchange 美国信息交换标准代码
    sudo apt-get install ascii 
    128 位 代表不同符号的编码
-   
+
+   ![ascii](./lqpybasic/image/ascii.png)
    
 ## 20220711
 1. quit() 或者 ctrl + d 退出 IDEL 
