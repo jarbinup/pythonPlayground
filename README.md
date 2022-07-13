@@ -7,7 +7,23 @@
    128 位 代表不同符号的编码
 
    ![ascii](./lqpybasic/image/ascii.png)
+3. 0b 开头表示二进制数
+   bin(ord('a')) => 0b1100001 
+4. 对应关系：二进制数在计算机中是存储在字节中的
    
+   ![byte](./lqpybasic/image/byte.png)
+
+   1 个字节 byte = 8 个 bit位 （物理地址） 
+   1B = 8bit (也就是 8 位二进制数 0 / 1)
+
+   8 bit 能表示 2^8 个状态也就是 256 位 
+   一位 16 进制数可以表示 16 中状态，两位就能表示 16*16 256 种状态
+
+   一字节 等于 8 位 2 进制数表示的状态长度 
+   一字节 等于 2 位 16 进制数表示的状态长度
+5. 0x 开头表示十六进制数
+
+   hex(ord('a')) => '0x61'
 ## 20220711
 1. quit() 或者 ctrl + d 退出 IDEL 
 2. REPL read evaluate print loop 
