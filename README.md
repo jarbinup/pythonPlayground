@@ -1,5 +1,22 @@
 # paly python
 
+## 20220714
+1. encode && decode
+   'a'.encode('ascii') => b'a'  type(b'a') => class bytes
+2. 0b 0 主要表示其他进制的数（和 10 进制区分）b 表示二进制 x 表示 16 进制
+3. ascii 字符
+4. bin(n) hex(n) int(n)
+5. vim 小技巧
+   : 表示进入命令模式 :w 保存 :wq 保存并退出 
+   :! 表示可以执行外部命令 :!wq 强制退出 :!python3 oeasy.py 执行外部 oeasy.py 文件 :!echo %  %表示当前的文件名
+   
+   > :%!xxd 我们可以看到这个文件的二进制形态
+   > %是指的对于所有行的范围
+   > !是执行外部命令
+   > xxd指的是转化为 16 进制形式
+   > :xxd –r 可以还原回去
+6. 文件编码 可以看到文件是以 2 进制的方式存储的
+7. 10 0x0A 对应 LF  Line Feed 喂一行 ？ 即换行
 ## 20220712
 1. help() 函数从 命令行模式切换到 帮助模式
 2. ASCII 码表 American Standard Code for Information Interchange 美国信息交换标准代码
